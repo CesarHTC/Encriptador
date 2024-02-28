@@ -38,6 +38,8 @@
     font-weight: 500; 
     color: #000000; 
     font-size: 1.125rem;
+    overflow-x: hidden;
+  overflow-y: scroll;
    
     
   }
