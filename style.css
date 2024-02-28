@@ -23,7 +23,7 @@
   }
 
   .entrada {
-    display: flex;
+    
     font-weight: bold;
     height: 3.5rem; 
     width: 95%;
@@ -39,7 +39,7 @@
     color: #000000; 
     font-size: 1.125rem;
     overflow-x: hidden;
-  overflow-y: scroll;
+    overflow-y: scroll;
    
     
   }
