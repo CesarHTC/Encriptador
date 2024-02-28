@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Título de tu página</title>
+  <!-- Agrega aquí enlaces a tus hojas de estilo adicionales, si es necesario -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="cuerpo">
+
+  <!-- Contenido principal -->
+  <div class="principal">
+    <div class="elemento">
+      <h1 style="font-size: 1.875rem; ">A</h1>
+      <input class="entrada" placeholder="Ingresa el texto" data-required="true" type="text" id="texto">
+      <p>Solo letras minúsculas y sin acentos</p>
+      <div class="botones">
+        <button class="boton" onclick="desencriptar()">
+          Desencriptar
+        </button>
+        <button onclick="encriptar()"class="boton-encriptar" >
+          Encriptar
+        </button>
+      </div>
+      <div class="resul">
+        <p style="font-size: 0.875rem; " id="resultado">Ningún mensaje fue encontrado</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Agrega aquí tus scripts si es necesario -->
+  <script src="app.js"></script>
+</body>
+
+</html>
