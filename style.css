@@ -23,7 +23,7 @@
   }
 
   .entrada {
-    /*display: flex;*/
+    display: flex;
     font-weight: bold;
     height: 3.5rem; 
     width: 95%;
@@ -38,7 +38,7 @@
     font-weight: 500; 
     color: #000000; 
     font-size: 1.125rem;
-    font-weight: bold; 
+   
     
   }
 
